@@ -1,0 +1,28 @@
+2020-11-11 18:03:08,282 - jq - [INFO] - Find key: .children.[0]
+2020-11-11 18:03:08,282 - jq - [INFO] - Start
+2020-11-11 18:03:08,284 - jq - [INFO] - Successful finish!
+2020-11-11 18:03:32,133 - jq - [INFO] - Find key: .children.[10]
+2020-11-11 18:03:32,133 - jq - [INFO] - Start
+2020-11-11 18:03:32,133 - jq - [ERROR] - list index out of range
+Traceback (most recent call last):
+  File "jq.py", line 41, in <module>
+    json_dict = json_dict[to_real_key(i)]
+IndexError: list index out of range
+2020-11-11 18:03:55,811 - jq - [INFO] - Find key: .firstName
+2020-11-11 18:03:55,812 - jq - [INFO] - Start
+2020-11-11 18:03:55,812 - jq - [INFO] - Successful finish!
+2020-11-11 18:04:16,579 - jq - [INFO] - Find key: .name
+2020-11-11 18:04:16,579 - jq - [INFO] - Start
+2020-11-11 18:04:16,579 - jq - [ERROR] - 'name'
+Traceback (most recent call last):
+  File "jq.py", line 41, in <module>
+    json_dict = json_dict[to_real_key(i)]
+KeyError: 'name'
+2020-11-11 18:12:34,543 - jq - [INFO] - Find key: .name
+2020-11-11 18:12:34,543 - jq - [INFO] - Start
+2020-11-11 18:12:34,543 - jq - [DEBUG] - There is no key 'name'
+2020-11-11 18:12:34,543 - jq - [ERROR] - 'name'
+Traceback (most recent call last):
+  File "jq.py", line 41, in <module>
+    json_dict = json_dict[to_real_key(i)]
+KeyError: 'name'
